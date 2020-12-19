@@ -7,11 +7,31 @@
 .banner__info {
     background-color: black;
     color: white;
-    padding:15vh 50px 40px 50px;
+    height: 90%;
+    padding:70px 20px 20px 30px;
     width:400px;
+}
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+.banner__searchButton {
+    background-color: white !important;
+    font-weight:900 !important;
+    text-transform: inherit !important;
+    color:#ff7779 !important;
 }
 .banner__info >button {
     background-color:  #ff7779;
     color: white;
     text-transform: inherit;
+    margin-top:20px;
+    font-weight:600;
+}
+.banner__info >button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+.banner__info > h5 {
+    margin-top:10px;
 }
